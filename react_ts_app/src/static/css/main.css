@@ -1,0 +1,259 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+
+#box{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+body{
+	margin: 0;
+	/*background-image: url(../img/stake.jpg);*/
+}
+
+@font-face{
+	font-family: 'Myfont';
+	src: url("../font/cinecaption226.ttf");
+}
+
+
+.logo{
+	font-family: Myfont;
+}
+
+.header{
+	height: 350px;
+	background-color: black;
+	background-image: url(../img/MacBack8.JPG);
+	background-size: cover;
+	background-position: top;
+	color: #fff;
+}
+
+#intro{
+	;
+}
+
+#profile{
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#Production{
+	background-color: #f5f5f5;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#Skill{
+	background-color: #f5f5f5;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#access{
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#career{
+	background-color: #f5f5f5;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.overlay{
+	justify-content: center;
+    align-items: center;
+}
+
+.headercontent{
+	/*font: 600 100px normal;*/
+	font-size: 100px;
+    text-align: center;
+    line-height: 350px;
+    /* z-index: 100;*/
+}
+
+.main{
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.main_footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+}
+
+.button-style{
+	color: #000;
+    font-size: 20px;
+}
+
+.Paragrahsize{
+	font-size: 50px;
+	font-family: Myfont;
+	padding-top: 30px;
+}
+
+.block-ja{
+	display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+	width: 50%;
+    padding: 10px;
+	text-align: left;
+}
+
+.block-ja.me{
+	text-align: center;
+	width: 30%;
+}
+
+body{
+	font-size: 18px;
+}
+
+.nav-main{
+	background-color: #fff;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+}
+
+.nav-tables{
+	list-style: none;
+	text-align: right;
+	padding-inline-start: 0px;
+	margin-block-start: .6em;
+	margin-block-end: .6em;
+}
+
+.nav-main .nav-tables a{
+	font-family: Myfont;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.nav-main .nav-tables li{
+	margin-left: .6em;
+	margin-right: .6em;
+	display: inline-block;
+}
+
+.nav-tables-left{
+	list-style: none;
+	text-align: left;
+	float: left;
+	padding-inline-start: 0px;
+	margin-block-start: .6em;
+	margin-block-end: .6em;
+	font-family: Myfont;
+	font-size: x-large;
+}
+
+.BoxIn{
+	width: 80%;
+	display: inline-block;
+
+}
+
+.Boxhalf{
+	display: flex;
+}
+
+.BoxThreeDiv{
+	display: flex;
+}
+
+.BoxFourDiv{
+	display: flex;
+}
+
+.Boxhalf .skillbox{
+	background-color: #fff;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+	width: 50%;
+    float: left;
+	padding: 10px;
+	text-align: center;
+	flex-direction: column;
+}
+
+.BoxThreeDiv .skillbox{
+	background-color: #fff;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+    width: 33%;
+    float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+.BoxFourDiv .skillbox{
+	background-color: #fff;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+    width: 25%;
+    float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+.leftsort{
+	font-size: large;
+	text-align: left;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+	z-index: 1;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.TextBox{
+	height: auto;
+}
+
+.PictureBox{
+	height: 500px;
+}
+
+.PictureBox img{
+	height: 100%;
+}
+
+.techbox{
+	margin-top:auto
+}
