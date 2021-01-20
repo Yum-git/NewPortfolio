@@ -1,0 +1,39 @@
+.career-ticket-list{
+	width: 60%;
+	display: inline-block;
+
+  .career-ticket{
+    border-left: 7px solid red;
+    padding-left: 10px;
+
+    .career-box{
+      text-align: left;
+      padding: 20px;
+      margin: 20px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      background-color: #ffffff;
+      box-shadow: 0 0 6px gray;
+
+      white-space: pre-wrap;
+
+      .career-title{
+        font-family: Myfont;
+      }
+
+      .career-company{
+        font-weight: bold;
+      }
+
+      .career-time{
+        font-size: medium;
+        color: gray;
+      }
+
+      .career-sentence{
+        font-size: medium;
+      }
+
+    }
+  }
+}
