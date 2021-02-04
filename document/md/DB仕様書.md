@@ -1,0 +1,67 @@
+---
+title: DB仕様書
+tags: []
+---
+
+# DB仕様書
+## 制作物テーブル
+#### 名前：productdata
+- id
+    - 制作物のindex
+    - bigint(8)
+    - auto_increment
+- title
+    - 制作物のタイトル
+    - varchar(50)
+- progress
+    - 制作物の進捗状況
+    - varchar(100)
+- contents
+    - 制作物の内容
+    - varchar(200)
+- picture_path
+    - 制作物の画像パス
+    - varchar(100)
+- tecnology_front
+    - 制作物のフロントエンド技術
+    - varchar(100)
+- tecnology_back
+    - 制作物のバックエンド技術
+    - varchar(100)
+- tecnology_infra
+    - 制作物のインフラ技術
+    - varchar(100)
+- link
+    - 制作物のリンク先
+    - varchar(200)
+
+## メインスキルテーブル（親テーブル）
+#### 名前：skilldata
+- id
+    - スキルのindex
+    - bigint(8)
+    - auto_increment
+- skill_name
+    - スキルの名前
+    - varchar(100)
+### スキルテーブル（子テーブル）
+#### 名前：skill_libraly_data
+- skill_name
+    - スキルの名前
+    - varchar(100)
+- skill_library_name
+    - スキルに属するライブラリの名前
+    - varchar(100)
+
+## ログインテーブル
+#### 名前：userdata
+- id
+    - ユーザのindex
+    - bigint(8)
+    - auto_increment
+- username
+    - ユーザ名
+    - varchar(100)
+- password
+    - パスワード
+    - varchar(200)
